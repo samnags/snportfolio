@@ -100,8 +100,12 @@ header {
 /* ABOUT */
 /* -----------------------------  */
 
+
+
+  
 .about h2 {
   padding-bottom: 10px;
+  letter-spacing: 2px
 }
 
 .about p {
