@@ -100,7 +100,12 @@ header {
 /* ABOUT */
 /* -----------------------------  */
 
-
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/carl-heyerdahl-181868.jpg);
+  background-size: cover;
+  position: center;
+  height: 100vh;
+}
 
   
 .about h2 {
