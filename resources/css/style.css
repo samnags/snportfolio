@@ -1,0 +1,126 @@
+/* -----------------------------  */
+/* REUSABLE COMPONENTS */
+/* -----------------------------  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fff;
+  font-family: 'Raleway', 'Arial', sans-serif; 
+  font-size: 20px;  
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.pad20 {
+  padding: 2%
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+a:hover, a:active {
+  color: #ecf0f1;
+}
+h1 {
+  font-size: 250%;
+  color:#fff;
+  font-weight: 100;
+  margin: 0;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+}
+
+.icon {
+  font-size: 52px;
+  padding-bottom: 5%;
+}
+
+.box {
+  padding-top: 1%;
+}
+
+
+/* -----------------------------  */
+/* HEADER */
+/* -----------------------------  */
+
+header {
+  background-image: url(images/mtkili.jpg);
+  height: 100vh; 
+  background-size: cover;       /* scales image as large as possible with keeps aspect ratio */
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header{
+  padding: 20px  
+}
+
+.header .nav li {
+  display: inline-block;
+  padding: 5px;
+  /*float: right;*/
+}
+
+.header h3 {
+  float: left;
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+
+.nav {
+  list-style: none;
+  float: right;
+  font-size: 80%
+}
+
+.hero-box { 
+  position: absolute; /* absolute is  to vertically and horizontally center */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.name {
+  margin-left: 30px;
+}
+
+/* -----------------------------  */
+/* ABOUT */
+/* -----------------------------  */
+
+.about h2 {
+  padding-bottom: 10px;
+}
+
+.about p {
+  line-height: 1.5;
+  width: 85%;
+  padding-bottom: 5%;
+}
+
+/* -----------------------------  */
+/* PORTFOLIO */
+/* -----------------------------  */
+
+section {
+  height: 100vh; 
+  background-color:  rgb(248,248,248);
+  /*background-color: #EEEEEE;*/
+}
+
+.portfolio h2 {
+  text-align: center;
+  padding: 40px;
+}
