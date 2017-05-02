@@ -127,7 +127,7 @@ header {
   
   padding-bottom: 40px
 }
-.portfolio-photo-outer-box {
+.portfolio-photo .outer-box {
   position: relative;
 }
 
@@ -135,10 +135,6 @@ header {
   text-align: center;
   padding: 40px;
 }
-
-/*.portfolio-photo-list {
-  width: 100%;
-}*/
 
 .portfolio-photo img {
   width: 87%;
@@ -162,6 +158,10 @@ header {
   transform: translate(-50%, -50%);
   left: 50%;
   position: absolute;
+}
+
+.inner-box h5 {
+  color: #fff;
 }
 
 adding media query so photos become 100% when on phone
