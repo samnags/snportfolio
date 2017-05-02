@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-    $('.portfolio-photo img').hover(function() {
+    $('.portfolio-photo img').on('mouseenter', function() {
 	    // console.log($(this))
         // debugger
         $(this.nextElementSibling.children[0]).removeClass('box-text-hidden')
