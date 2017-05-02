@@ -129,6 +129,7 @@ header {
 }
 .portfolio-photo .outer-box {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio h2 {
@@ -137,20 +138,21 @@ header {
 }
 
 .portfolio-photo img {
-  width: 87%;
+  width: 100%;
   height: auto;
   background-color: #000;  
   opacity: 0.7;
   margin-bottom: 7%;
-  transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s;
+  /*transform: scale(1);*/
+  /*transition: all 1s ease;*/
+  transition: opacity 0.5s;
   overflow: hidden;  
 }
 
 .portfolio-photo img:hover {
-  transform: scale(1);
+  transform: scale(1.5);
   opacity: 1;
-  transition: transform 0.5s, opacity 0.5;
+  transition: transform 4s, opacity 0.5s;
 }
 
 .inner-box {
