@@ -64,7 +64,8 @@ header {
 }
 
 .header{
-  padding: 20px  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header .nav li {
@@ -101,7 +102,7 @@ header {
 /* -----------------------------  */
 
 .about {
-  height: 70vh; 
+  padding-left: 10px;
 }
   
 .about h2 {
@@ -120,27 +121,51 @@ header {
 /* -----------------------------  */
 
 .portfolio {
-  height: 100vh; 
-  
-  background-color:  rgb(248,248,248);
+  /*background-color:  rgb(248,248,248);*/
   /*background-color: #EEEEEE;*/
+  background-color: #f7f9ff;
+  
+  padding-bottom: 40px
 }
+/*.portfolio-photo-list {
+  width: 100%;
+}*/
 
 .portfolio h2 {
   text-align: center;
   padding: 40px;
 }
 
-.portfolio img {
-  float: left;
+/*.portfolio-photo-list {
   width: 100%;
-  
+}*/
+
+.portfolio-photo img {
+  width: 87%;
+  height: auto;
+  background-color: #000;  
+  opacity: 0.7;
+  margin-bottom: 7%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+  overflow: hidden;
 }
 
-    /*width: 370px;
-    height: 250px;
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;*/
+.portfolio-photo img:hover {
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5;
+}
+
+adding media query so photos become 100% when on phone
+
+/* -----------------------------  */
+/* CONTACT */
+/* -----------------------------  */
+
+.contact {
+  padding-top: 20px;
+  background-color: yellow;
+}
+
+
