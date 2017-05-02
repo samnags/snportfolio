@@ -127,9 +127,9 @@ header {
   
   padding-bottom: 40px
 }
-/*.portfolio-photo-list {
-  width: 100%;
-}*/
+.portfolio-photo-outer-box {
+  position: relative;
+}
 
 .portfolio h2 {
   text-align: center;
@@ -148,13 +148,20 @@ header {
   margin-bottom: 7%;
   transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 .portfolio-photo img:hover {
   transform: scale(1);
   opacity: 1;
   transition: transform 0.5s, opacity 0.5;
+}
+
+.inner-box {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
 }
 
 adding media query so photos become 100% when on phone
