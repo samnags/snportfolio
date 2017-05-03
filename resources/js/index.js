@@ -13,7 +13,7 @@ $(document).ready(() => {
     })
 
     $('#header-type').typeIt({
-     strings: ["Hi, I am Sam.", "I am a Full Stack Developer.", "I am a politics geek.", "NY transplant in LA.", "I love coding."],
+     strings: ["Hi, my name is Sam.", "I am a Full Stack Developer.", "I am a politics geek.", "NY transplant in LA.", "I love coding."],
      speed: 120,
      breakLines: false,
      autoStart: true,
@@ -21,6 +21,10 @@ $(document).ready(() => {
      cursor: true,
      deleteSpeed: 40,
      deleteDelay: 1000,
+     callback: function() {
+        //  debugger
+        $('.directions').removeClass('icon-hidden')        
+        }
     })
 
 })

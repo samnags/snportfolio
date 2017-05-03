@@ -96,6 +96,21 @@ header {
   transform: translate(-50%, -50%)
 }
 
+.directions-box {
+  position: absolute; /* absolute is  to vertically and horizontally center */
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.directions.icon-hidden  {  
+  display: none;
+}
+
+.directions.icon {
+  color: #fff;
+}
+
 .name h1 {
   margin-left: 5%;
   float: left;
