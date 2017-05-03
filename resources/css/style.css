@@ -302,7 +302,7 @@ background: linear-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+
   and (orientation: landscape) { 
 
   .directions-box {    
-    top: 75%;
+    top: 80%;
     left: 36%;
   }
 
