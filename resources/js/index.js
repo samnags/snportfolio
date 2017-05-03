@@ -13,7 +13,7 @@ $(document).ready(() => {
     })
 
     $('#header-type').typeIt({
-     strings: ["Hi, I am Sam.", "I am a Full Stack Developer.", "I am a politics geek.", "NY transplant in LA", "I love coding"],
+     strings: ["Hi, I am Sam.", "I am a Full Stack Developer.", "I am a politics geek.", "NY transplant in LA.", "I love coding."],
      speed: 120,
      breakLines: false,
      autoStart: true,
