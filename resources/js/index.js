@@ -21,11 +21,13 @@ $(document).ready(() => {
      cursor: true,
      deleteSpeed: 40,
      deleteDelay: 1000,
-     callback: function() {
-        //  debugger
+     callback: function() {        
         $('.directions').removeClass('icon-hidden')        
         }
     })
+
+    $.localScroll();
+
 
 })
 
