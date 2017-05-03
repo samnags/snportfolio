@@ -25,15 +25,7 @@ html {
   padding: 2%
 }
 
-a, a:visited {
-  text-decoration: none;
-  color: #000;
-  padding: 10px;
-}
 
-a:hover, a:active {
-  color: #ecf0f1;
-}
 h1 {
   font-size: 300%;
   color:#fff;
@@ -52,6 +44,17 @@ h1 {
   padding-top: 1%;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover, a:active {
+  color: #ecf0f1;
+}
+
+
+
 
 /* -----------------------------  */
 /* HEADER */
@@ -68,6 +71,16 @@ header {
 .header{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.header a:hover, a:active {
+  color: #ecf0f1;
+}
+
+.header a, a:visited {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
 }
 
 .header .nav li {
@@ -138,6 +151,10 @@ header {
   line-height: 1.5;
   width: 85%;
   padding-bottom: 10%;
+}
+
+.about a:hover {
+   color: #5C97BF;
 }
 
 /* -----------------------------  */
@@ -225,6 +242,11 @@ header {
   transform: translateX(-50%) translateY(-50%);
 }
 
+.contact a:hover {
+  /*text-decoration: underline;*/
+  color: #fff;
+}
+
 /*.comms-content {
   position: absolute;
   top: 65%;
@@ -254,8 +276,7 @@ background: -o-linear-gradient(#414345, #232526);
 background: linear-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 10vh; 
   position: relative;  
-  padding-top: 2%
-  
+  padding-top: 2%  
 }
 
 .footer-content {
@@ -267,6 +288,11 @@ background: linear-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+
   transform: translateX(-50%) translateY(-50%);
 }
 
+.footer a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
 
 /* -----------------------------  */
 /* MEDIA QUERIES */
