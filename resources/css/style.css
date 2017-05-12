@@ -61,7 +61,7 @@ a:hover, a:active {
 /* -----------------------------  */
 
 header {
-  background-image: url(./images/mtkili.JPG);
+  background-image: url(./images/mtkili-min.JPG);
   height: 100vh; 
   background-size: cover;       /* scales image as large as possible with keeps aspect ratio */
   background-position: center;
